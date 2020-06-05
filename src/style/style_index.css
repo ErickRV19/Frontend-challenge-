@@ -1,0 +1,23 @@
+:root {}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F3F7;
+}
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.menu {
+    padding: 1em;
+    margin: 3em;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.item {
+    padding-left: 1em;
+}
