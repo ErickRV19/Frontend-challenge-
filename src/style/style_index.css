@@ -29,6 +29,11 @@ body {
     display: grid;
 }
 
+.icon {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
 .challenges {
     padding: 1em;
     grid-column: 1 / 3;
