@@ -1,5 +1,10 @@
 :root {}
 
+:focus {
+    outline: 0;
+    -moz-user-focus: ignore;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e3e5f0;
@@ -67,6 +72,13 @@ body.dark {
     outline: none;
 }
 
+button {
+    border: none;
+    outline: none;
+    -moz-user-focus: ignore;
+    -moz-user-select: none;
+}
+
 .dark #switch {
     background-color: #4b4bd3;
 }
@@ -87,11 +99,13 @@ body.dark {
     left: 0;
     right: unset;
     border-radius: 100px;
+    outline: none;
     transition: .3s ease all;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
 }
 
 span {
+    outline: none;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -103,6 +117,7 @@ span {
 }
 
 .switchicon {
+    outline: none;
     margin-top: .7em;
     width: 1.7vw;
     height: 3.5vh;
