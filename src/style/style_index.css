@@ -6,6 +6,24 @@ body {
     margin: 0px;
 }
 
+body.dark {
+    background-color: black;
+}
+
+.dark .menus {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.dark .menu {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.dark .item {
+    color: white;
+}
+
 .menus {
     display: flex;
     flex-direction: row;
@@ -50,10 +68,8 @@ body {
 }
 
 .dark #switch {
-    background-color: midnightblue;
+    background-color: #4b4bd3;
 }
-
-.dark {}
 
 .dark #switch::after {
     right: 0;
@@ -88,7 +104,7 @@ span {
 
 .switchicon {
     margin-top: .7em;
-    width: 2vw;
+    width: 1.7vw;
     height: 3.5vh;
 }
 
@@ -101,6 +117,11 @@ span {
 a {
     text-decoration: none;
     text-transform: none;
+}
+
+.dark .mentor {
+    color: white;
+    background-color: rgb(31, 30, 30);
 }
 
 .mentor {
@@ -122,6 +143,12 @@ a {
     width: 25vw;
 }
 
+.dark .banner-d {
+    padding: 1em;
+    background-color: #6a1b9a;
+    border-radius: 2em;
+}
+
 .item {
     color: rgb(114, 112, 112);
 }
@@ -131,8 +158,21 @@ a {
     grid-auto-columns: minmax(10px, auto);
 }
 
+.dark .text {
+    color: white;
+}
+
 .text {
     color: rgb(114, 112, 112);
+}
+
+.dark .card {
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+
+.dark .preview-img {
+    background-color: rgb(31, 30, 30);
 }
 
 .card {
