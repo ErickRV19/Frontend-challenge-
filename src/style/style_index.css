@@ -46,12 +46,22 @@ a {
 }
 
 .mentor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1em;
+    padding-top: 2em;
     background-color: rgb(255, 255, 255);
     border-radius: 2em;
     width: 30vw;
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+}
+
+.banner {
+    align-self: center;
+    width: 25vw;
 }
 
 .item {
@@ -74,6 +84,15 @@ a {
     color: rgb(114, 112, 112);
     padding-bottom: 1em;
     border-radius: 2em;
+}
+
+.title {
+    background-color: #6a1b9a;
+    color: white;
+    border-radius: 2em;
+    padding: 2em;
+    padding-top: 0em;
+    margin-top: 1em;
 }
 
 .card1 {
