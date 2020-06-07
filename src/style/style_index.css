@@ -16,7 +16,7 @@ body {
 
 .menu {
     padding: .5em;
-    margin: 3em;
+    margin: 2em 3em;
     background-color: white;
     border-radius: 3em;
 }
@@ -90,8 +90,7 @@ a {
     background-color: #6a1b9a;
     color: white;
     border-radius: 2em;
-    padding: 2em;
-    padding-top: 0em;
+    padding: 1em;
     margin-top: 1em;
 }
 
